@@ -136,9 +136,6 @@
   topic: "Bash"
   reading:
     -
-     title: "HW00 due"
-     url:   "https://classroom.github.com/classrooms/112222151-2022-fall-uaf-cs201/assignments/hw00"
-    -
      title: "TLCL §3: Exploring the System"
      url:   "https://linuxcommand.org/tlcl.php"
      pages: "13"
@@ -165,9 +162,6 @@
   day_of_week: 0
 #  slides: ../assets/pdf/cs201-0202-flow-of-control-2.pdf
   reading:
-    -
-     title: "Recording of class session"
-     url:   "https://alaska.zoom.us/rec/share/xH0VKKMwrPtw2qaktfbyDuHJCilp_xChvIeqUdMgtwYUXwchIzeBUFtfHzf2XKLc.-0AQy1woGVcV0nAr"
     -
      title: "PPP C++ §3: Objects, Types, and Values"
      url:   "https://www.oreilly.com/library/view/programming-principles-and/9780133796759/"
@@ -471,31 +465,34 @@
 ###################################
 #  topic: "Numbers"
   day_of_week: 0
-#  slides: ../assets/pdf/cs201-0801-numbers_1.pdf
--
-#  topic: ""
-  day_of_week: 2
   reading:
-    -
-     title: "TLCL §27: Flow Control branching with if"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "393-409"
-     length:
-       value: 16
-       unit:  "pages"
-#  slides: ../assets/pdf/cs201-0802-numbers_2.pdf
--
-#  topic: "Structured data"
-  day_of_week: 4
-  reading:
-    -
-     title: "TLCL §28: Reading Keyboard Input"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "410-422"
-     length:
-       value: 12
-       unit:  "pages"
-#  slides: ../assets/pdf/cs201-0901-structured-data-1.pdf
+   -
+     title: "Spring Break"
+##  slides: ../assets/pdf/cs201-0801-numbers_1.pdf
+#-
+##  topic: ""
+#  day_of_week: 2
+#  reading:
+#    -
+#     title: "TLCL §27: Flow Control branching with if"
+#     url:   "https://linuxcommand.org/tlcl.php"
+#     pages: "393-409"
+#     length:
+#       value: 16
+#       unit:  "pages"
+##  slides: ../assets/pdf/cs201-0802-numbers_2.pdf
+#-
+##  topic: "Structured data"
+#  day_of_week: 4
+#  reading:
+#    -
+#     title: "TLCL §28: Reading Keyboard Input"
+#     url:   "https://linuxcommand.org/tlcl.php"
+#     pages: "410-422"
+#     length:
+#       value: 12
+#       unit:  "pages"
+##  slides: ../assets/pdf/cs201-0901-structured-data-1.pdf
 -
 ###################################
   start_new_week: true   # Week 10
