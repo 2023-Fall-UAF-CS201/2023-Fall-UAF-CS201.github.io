@@ -73,22 +73,6 @@
      length:
        value: 1
        unit:  "pages"
-    -
-     optional: true
-     title: "TLCL §3: Exploring the System"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "13"
-     length:
-       value: 5
-       unit:  "pages"
-    -
-     optional: true
-     title: "TLCL §4: Manipulating files & dirs"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "25-41"
-     length:
-       value: 16
-       unit:  "pages"
 -
 ###################################
   start_new_week: true   # Week 2
@@ -151,10 +135,23 @@
 #  slides: ../assets/pdf/cs201-0201-flow-of-control-1.pdf
   topic: "Bash"
   reading:
-
     -
      title: "HW00 due"
      url:   "https://classroom.github.com/classrooms/112222151-2022-fall-uaf-cs201/assignments/hw00"
+    -
+     title: "TLCL §3: Exploring the System"
+     url:   "https://linuxcommand.org/tlcl.php"
+     pages: "13"
+     length:
+       value: 5
+       unit:  "pages"
+    -
+     title: "TLCL §4: Manipulating files & dirs"
+     url:   "https://linuxcommand.org/tlcl.php"
+     pages: "25-41"
+     length:
+       value: 16
+       unit:  "pages"
 #     title: "Chapter 4.4: Statements"
 #     pages: "100-113"
 #     length:
