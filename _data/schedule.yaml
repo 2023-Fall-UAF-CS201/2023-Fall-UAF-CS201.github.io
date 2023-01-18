@@ -89,7 +89,14 @@
      length:
        value: 16
        unit:  "pages"
-       
+-
+###################################
+  start_new_week: true   # Week 2
+###################################
+  day_of_week: 0
+  topic: ""
+#  slides: ../assets/pdf/cs201-0102-intro-to-cpp-2.pdf
+  reading:
     -
      title: "Pro Git §1.1: About Version Control"
      url:   "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"
@@ -121,12 +128,9 @@
        value: 6
        unit: "pages"
 -
-###################################
-  start_new_week: true   # Week 2
-###################################
-  day_of_week: 0
-  topic: "Intro to C++"
-#  slides: ../assets/pdf/cs201-0102-intro-to-cpp-2.pdf
+  topic: ""
+  day_of_week: 2
+#  slides: ../assets/pdf/cs201-0103-intro-to-cpp-3.pdf
   reading:
     -
      title: "PPP C++: Preface"
@@ -142,12 +146,6 @@
      length:
        value: 9
        unit: "pages"
--
-  topic: "Git"
-  day_of_week: 2
-#  slides: ../assets/pdf/cs201-0103-intro-to-cpp-3.pdf
-  reading:
-
 -
   day_of_week: 4
 #  slides: ../assets/pdf/cs201-0201-flow-of-control-1.pdf
