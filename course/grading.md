@@ -1,22 +1,20 @@
 #### Grading
 
-In this course you will be assessed through quizzes, in-class labs, homework assignments, a course project, a mid-term exam, and a final exam.
+In this course you will be assessed through in-class attendance/participation, in-class labs, homework assignments, a mid-term exam, and a final exam.
 
 The grading total breakdown is as follows:
 
-| Assessment                                     |  Percentage          |
+| Assessment                             |  Percentage          |
 |---------------------------------------------------------------|
-| Quizzes                                            |       **6%**            |
+| Homework assignments                   |     **40%**          |
 |---------------------------------------------------------------|
-| In-class labs (36)                             |     **20%**            |
+| In-class labs                          |     **20%**          |
 |---------------------------------------------------------------|
-| Homework assignments (8)             |     **40%**            |
+| In-class participation                 |     **10%**          |
 |---------------------------------------------------------------|
-| Project                                             |     **10%**            |
+| Mid-term exam                          |     **10%**          |
 |---------------------------------------------------------------|
-| Mid-term exam                                |     **12%**            |
-|---------------------------------------------------------------|
-| Final exam                                       |     **12%**            |
+| Final exam                             |     **10%**          |
 |---------------------------------------------------------------|
 
 
