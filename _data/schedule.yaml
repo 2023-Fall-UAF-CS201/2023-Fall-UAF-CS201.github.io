@@ -78,8 +78,6 @@
   start_new_week: true   # Week 2
 ###################################
   day_of_week: 0
-  topic: "Slides"
-  slides: ../slides/week2
   reading:
     -
      title: "Pro Git §1.1: About Version Control"
@@ -112,9 +110,9 @@
        value: 6
        unit: "pages"
 -
-  topic: ""
+  topic: "Chapter 2"
+  slides: ../slides/week2
   day_of_week: 2
-#  slides: ../assets/pdf/cs201-0103-intro-to-cpp-3.pdf
   reading:
     -
      title: "PPP C++: Preface"
