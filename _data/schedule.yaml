@@ -285,6 +285,8 @@
 -
 #  topic: ""
   day_of_week: 4
+  topic: "Chapter 4"
+  slides: ../slides/week4  
 #  slides: ../assets/pdf/cs201-0304-functions-4.pdf
   reading:
     -
