@@ -79,7 +79,7 @@
 ###################################
   day_of_week: 0
   topic: "Slides"
-    slides: ../slides/week2
+  slides: ../slides/week2
   reading:
     -
      title: "Pro Git §1.1: About Version Control"
