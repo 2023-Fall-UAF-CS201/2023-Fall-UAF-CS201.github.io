@@ -499,6 +499,10 @@
 ###################################
 #  topic: ""
   day_of_week: 0
+  reading:
+   -
+    title: "Video from class"
+    url:   "https://alaska.zoom.us/rec/share/0ls9Smu7ET-oPVm3n07PPshAAaXQ1-GVB7xfGFIc8wpIRKm_IYxQY8kmeJUENCmU.b5RbgCf2AcJmw-o6"
 #  slides: ../assets/pdf/cs201-0902-structured-data-2.pdf
 -
 #  topic: ""
