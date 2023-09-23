@@ -2,6 +2,7 @@ site: "CS 201"
 url: https://cs.uaf.edu
 title: "CS 201"
 description: "Computer Science I"
+semester: "Spring 2023"
 
 permalink: pretty
 

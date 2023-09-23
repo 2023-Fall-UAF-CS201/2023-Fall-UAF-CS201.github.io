@@ -11,7 +11,7 @@
 * Email: [lane.schwartz@alaska.edu](mailto:lane.schwartz@alaska.edu)
 * Phone: [+1-907-474-6104](tel:+1-907-474-6104)
 * Office: [Duckering](https://uaf.edu/campusmap/for-visitors/buildings/duckering.php) room 543
-* 1-on-1 time for students: to be determined
+* 1-on-1 time for students: 9 AM on Tuesdays
 
 Please stop by and say hi! I am excited to help you in your academic journey.
 

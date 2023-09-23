@@ -1,7 +1,7 @@
 #### Grading
 
 In this course you will be assessed through in-class attendance/participation, in-class labs, homework assignments, a mid-term exam, and a final exam.
-
+l
 The grading total breakdown is as follows:
 
 | Assessment                             |  Percentage          |
