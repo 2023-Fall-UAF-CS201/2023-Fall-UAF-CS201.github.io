@@ -16,6 +16,7 @@
     - "Introduction to vim, including how to edit a file, save a file, and exit vim"
     - "Work with students to run git config on aurora to provide user name and email address"
     - "Work with students to ensure each student creates an ssh key on aurora and connects it to their Github account"
+    - "Ask students to begin reading Chapter 1 of C++ Primer 5th edition"
 -
   topic: "HW00"
   day_of_week: 4
@@ -30,531 +31,78 @@
   start_new_week: true   # Week 2
 ###################################
   day_of_week: 0
+  lesson:
+    - "Present syllabus"
 -
   day_of_week: 2
+  lesson:
+    - "Provide Zoom link for students who are ill"
 -
   day_of_week: 4
-  reading:
-    -
-     title: "C++ Primer Chapter 1: Getting Started"
-     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/"
-     pages: "1-28"
-     length:
-       value: 28
-       unit:  "pages"
+  lesson: "HW01"
+    - "Describe a hypothetical CS lab from 50+ years ago with dumb terminals"
+    - "Describe a terminal emulator"
+    - "Refresh students on how to use ssh in conjunction with a terminal emulator"
+    - "Remind students that connecting to aurora from off campus requires VPN"
+    - "Describe the concepts of standard input, output, and error streams in conjunction with bash"
 -
 ###################################
   start_new_week: true   # Week 3
 ###################################
-  topic: "Basic data types"
   day_of_week: 0
-#  slides: ../assets/pdf/cs201-0202-flow-of-control-2.pdf
-  reading:
-    -
-     title: "PPP C++ §3: Objects, Types, and Values"
-     url:   "https://www.oreilly.com/library/view/programming-principles-and/9780133796759/"
-     pages: "59-83"
-     length:
-       value: 24
-       unit: "pages"
 -
   day_of_week: 2
-#  slides: ../assets/pdf/cs201-0203-flow-of-control-3.pdf
-  reading:
-    -
-     title: "TLCL §8: Advanced Keyboard Tricks"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "81-89"
-     length:
-       value: 12
-       unit:  "pages"
 -
-#  topic: "Functions"
   day_of_week: 4
-#  slides: ../assets/pdf/cs201-0301-functions-1.pdf
-  reading:
-    -
-     title: "Recording of class session"
-     url:   "https://alaska.zoom.us/rec/share/VYaYM7jVzeZRFN6zYSzralpy_kW0RFdfQrvZK0OCQghLUSUR3waeyqz67FGLkAEL.SI-2-H3hMz7KSO4a"
-    -
-     title: "TLCL §6: Redirection"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "54-67"
-     length:
-       value: 13
-       unit:  "pages"
-    -
-     title: "Video Lectures covering standard input, standard output, and standard error streams, as well as redirection"
-     url:   "https://www.youtube.com/playlist?list=PLydysiDoFy5U5azdURmcOqNd26c9KKkXd"
-     length:
-       value: 59
-       unit:  "minutes"
-    -
-     title: "Video Lectures covering cat, uniq, wc, grep, head, and tail"
-     url:   "https://www.youtube.com/playlist?list=PLydysiDoFy5X05aMvr7cE3qCOV7lT8gcm"
-     length:
-       value: 17
-       unit:  "minutes"
-       
-#    -
-#     title: "Chapter 4.5: Functions"
-#     pages: "113-117"
-#     length:
-#       value: 4
-#       unit: "pages"
-#    -
-#     title: "HW1 due"
+  topic: "HW01"
+    - "Assign HW01"
+    - "Give students entire class period to work on HW01"
+    - "Walk around and assist students as needed, answering questions"
 -
 ###################################
   start_new_week: true   # Week 4
 ###################################
-  topic: "Expressions, Statements, Functions"
-  day_of_week: 0
-#  slides: ../assets/pdf/cs201-0302-functions-2.pdf
-  reading:
-    -
-     title: "Recording of class session"
-     url:   "https://alaska.zoom.us/rec/share/TNj8K0QAK1mYV0QkkhM085lwb33IlRAQZBh4KpW1CeRmz0xwUQ3sC0Z92V1WxI1b.FpLdDOvnRYcxhlEB"
-    -
-     title: "Code from class"
-     url:   "code/while_turtles.cpp"
-    -
-     title: "PPP C++ §4: Computation"
-     url:   "https://www.oreilly.com/library/view/programming-principles-and/9780133796759/"
-     pages: "89-125"
-     length:
-       value: 37
-       unit: "pages"
-     outcomes:
-       -
-         section:
-           number: 4.3
-           title:  "Expressions"
-         outcomes:
-           - "Define and identify examples of `lvalue` and `rvalue` in the context of C++ expressions"
-           - "Describe utility of constexrp and when it can be used; provide examples of valid constexpr expressions"
-       -
-         section:
-           number: 4.4
-           title:  "Statements"
-         outcomes:
-           - "Recognize and provide examples of `if` statements, including those that utilize `else if` and `else`"
-           - "Recognize and provide examples of `switch` statements, including stating what kinds of values may be used in `switch` and `case`"
-           - "Recognize and provide examples of `while` loops"
-           - "Recognize and provide example of an empty block"
-           - "Recognize and provide examples of traditional C++ `for` loop"
-           - "Recognize and provide examples of for-each style `for` loop"
-           - "Recognize and provide examples of simple C++ functions; provide convincing rationale regarding purpose of functions"
-           - "Recognize and describe `vector` as a foundational data type in modern C++"
-           - "Recognize and write code constructing a vector from data using modern `{}`-style initialization"
-           - "Recognize and write code that appends elements to a vector using `push_back`"
--
-#  topic: ""
-  day_of_week: 2
-#  slides: ../assets/pdf/cs201-0303-functions-3.pdf
-  reading:
-    -
-     title: "Code from class"
-     url:   "code/for_vector.cpp"
-    -
-     title: "Recording of class session"
-     url:   "https://alaska.zoom.us/rec/share/j_Lv6Izug_WhudYluPpJH1USq-oRwEBDn9yvzWgl9eiR-Git2q2EUFtIorrj53cS.nX-Z9fF1c0WHbS0H"
-    -
-     title: "TLCL §7: Seeing the world..."
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "68-80"
-     length:
-       value: 12
-       unit:  "pages"
-    -
-      title: "Video lectures covering expansions, substitutions, escaping, and quoting"
-      url:   "https://www.youtube.com/playlist?list=PLydysiDoFy5XconOvRwpEX-9zQj-dhY2Y"
-      length:
-        value: 69
-        unit:  "minutes"
--
-#  topic: ""
-  day_of_week: 4
-  topic: "Chapter 4"
-  slides: ../slides/week4  
-#  slides: ../assets/pdf/cs201-0304-functions-4.pdf
-  reading:
-    -
-     title: "TLCL §9: Permissions"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "90-109"
-     length:
-       value: 19
-       unit:  "pages"
--
 ###################################
   start_new_week: true   # Week 5
 ###################################
-  topic: "Errors"
-  day_of_week: 0
-#  slides: ../assets/pdf/cs201-0401-type_1.pdf
-  reading:
-    -
-     title: "PPP C++ §5: Errors"
-     url:   "https://www.oreilly.com/library/view/programming-principles-and/9780133796759/"
-     pages: "133-167"
-     length:
-       value: 34
-       unit: "pages"
-#    -
-#     title: "HW2 due"
--
-#  topic: ""
-  day_of_week: 2
-#  slides: ../assets/pdf/cs201-0402-type_2.pdf
-  reading:
-    -
-     title: "TLCL §10: Processes"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "110-124"
-     length:
-       value: 15
-       unit:  "pages"
--
-#  topic: "Vectors"
-  day_of_week: 4
-  reading:
-    -
-     title: "TLCL §11: The Environment"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "128-140"
-     length:
-       value: 12
-       unit:  "pages"
-#  slides: ../assets/pdf/cs201-0501-vector_1.pdf
--
 ###################################
   start_new_week: true   # Week 6
 ###################################
-  topic: "Writing a Program"
-  day_of_week: 0
-#  slides: ../assets/pdf/cs201-0502-vector_2.pdf
-  reading:
-    -
-     title: "PPP C++ §6: Writing a Program"
-     url:   "https://www.oreilly.com/library/view/programming-principles-and/9780133796759/"
-     pages: "173-215"
-     length:
-       value: 43
-       unit: "pages"
--
-#  topic: "Strings"
-  day_of_week: 2
-#  slides: ../assets/pdf/cs201-0601-string_1.pdf
-  reading:
-    -
-     title: "TLCL §13: Customizing the Prompt"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "128-140"
-     length:
-       value: 12
-       unit:  "pages"
-#    -
-#     title: "HW3 due"
--
-#  topic: ""
-  day_of_week: 4
-  reading:
-    -
-     title: "TLCL §19: Regular Expressions"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "251-272"
-     length:
-       value: 21
-       unit:  "pages"
-    -
-     title: "Regular expressions and grep"
-     url:   "https://www.youtube.com/playlist?list=PLydysiDoFy5VwK8RajTwNzW8v4edsi8hL"
-     length:
-       value: 59
-       unit:  "minutes"
-#  slides: ../assets/pdf/cs201-0602-string_2.pdf
--
 ###################################
   start_new_week: true   # Week 7
 ###################################
-#  topic: "Searching & Sorting"
-  day_of_week: 0
-#  slides: ../assets/pdf/cs201-0701-search_1.pdf
-  reading:
-    -
-     title: "PPP C++ §7: Completing a Program"
-     url:   "https://www.oreilly.com/library/view/programming-principles-and/9780133796759/"
-     pages: "221-251"
-     length:
-       value: 30
-       unit: "pages"
--
-#  topic: ""
-  day_of_week: 2
-  reading:
-    -
-     title: "TLCL §20: Text Processing"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "273-314"
-     length:
-       value: 41
-       unit:  "pages"
-    -
-     title: "Determining the most frequent words in a corpus using basic shell commands"
-     url:   "https://www.youtube.com/playlist?list=PLydysiDoFy5XXg3ht-cPoVjQqzcUCJOwY"
-     length:
-       value: 31
-       unit:  "minutes"
-#  slides: ../assets/pdf/cs201-0702-search_2.pdf
--
-#  topic: ""
-  day_of_week: 4
-#  slides: ../assets/pdf/cs201-0703-search_3.pdf
-  reading:
-    -
-     title: "TLCL §24: Writing Your First Shell Script"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "364-370"
-     length:
-       value: 6
-       unit:  "pages"
-#    -
-#     title: "HW4 due"
--
 ###################################
   start_new_week: true   # Week 8
 ###################################
 #  topic: "Review"
   day_of_week: 0
 -
-#  topic: ""
   day_of_week: 2
-  reading:
-    -
-     title: "TLCL §25: Starting a Project"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "371-382"
-     length:
-       value: 11
-       unit:  "pages"
 -
-#  topic: "Midterm Exam"
+  topic: "Midterm Exam"
   day_of_week: 4
-  reading:
-    -
-     title: "TLCL §26: Top-Down Design"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "383-392"
-     length:
-       value: 9
-       unit:  "pages"
 -
-###################################
+g###################################
   start_new_week: true   # Week 9
 ###################################
-#  topic: "Numbers"
-  day_of_week: 0
-  reading:
-   -
-     title: "Spring Break"
-##  slides: ../assets/pdf/cs201-0801-numbers_1.pdf
-#-
-##  topic: ""
-#  day_of_week: 2
-#  reading:
-#    -
-#     title: "TLCL §27: Flow Control branching with if"
-#     url:   "https://linuxcommand.org/tlcl.php"
-#     pages: "393-409"
-#     length:
-#       value: 16
-#       unit:  "pages"
-##  slides: ../assets/pdf/cs201-0802-numbers_2.pdf
-#-
-##  topic: "Structured data"
-#  day_of_week: 4
-#  reading:
-#    -
-#     title: "TLCL §28: Reading Keyboard Input"
-#     url:   "https://linuxcommand.org/tlcl.php"
-#     pages: "410-422"
-#     length:
-#       value: 12
-#       unit:  "pages"
-##  slides: ../assets/pdf/cs201-0901-structured-data-1.pdf
--
 ###################################
   start_new_week: true   # Week 10
 ###################################
-#  topic: ""
-  day_of_week: 0
-  reading:
-   -
-    title: "Video from class"
-    url:   "https://alaska.zoom.us/rec/share/0ls9Smu7ET-oPVm3n07PPshAAaXQ1-GVB7xfGFIc8wpIRKm_IYxQY8kmeJUENCmU.b5RbgCf2AcJmw-o6"
-#  slides: ../assets/pdf/cs201-0902-structured-data-2.pdf
--
-#  topic: ""
-  day_of_week: 2
-  reading:
-    -
-     title: "TLCL §29: Flow Control looping with while"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "423-429"
-     length:
-       value: 6
-       unit:  "pages"
-#  slides: ../assets/pdf/cs201-0903-structured-data-3.pdf
--
-#  topic: "Standard library"
-  day_of_week: 4
-  reading:
-    -
-     title: "TLCL §30: Troubleshooting"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "430-443"
-     length:
-       value: 13
-       unit:  "pages"
-#  slides: ../assets/pdf/cs201-1001-stdlib-1.pdf
--
 ###################################
   start_new_week: true   # Week 11
 ###################################
-#  topic: ""
-  day_of_week: 0
-#  slides: ../assets/pdf/cs201-1002-stdlib-2.pdf
-#  reading:
-#    -
-#     title: "HW5 due"
--
-#  topic: ""
-  day_of_week: 2
-  reading:
-    -
-     title: "TLCL §31: Flow Control branching with case"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "444-450"
-     length:
-       value: 6
-       unit:  "pages"
-#  slides: ../assets/pdf/cs201-1003-stdlib-3.pdf
--
-#  topic: ""
-  day_of_week: 4
-  reading:
-    -
-     title: "TLCL §32: Positional Parameters"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "451-465"
-     length:
-       value: 14
-       unit:  "pages"
-#  slides: ../assets/pdf/cs201-1004-stdlib-4.pdf
--
 ###################################
   start_new_week: true   # Week 12
 ###################################
-#  topic: "Files"
-  day_of_week: 0
-#  slides: ../assets/pdf/cs201-1101-files-1.pdf
--
-#  topic: ""
-  day_of_week: 2
-  reading:
-    -
-     title: "TLCL §33: Flow Control: Looping with for"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "451-465"
-     length:
-       value: 14
-       unit:  "pages"
-#  slides: ../assets/pdf/cs201-1102-files-2.pdf
-#  reading:
-#    -
-#     title: "HW6 due"
--
-#  topic: "Internals"
-#  day_of_week: 4
-#  slides: ../assets/pdf/cs201-1201-internals-1.pdf
--
 ###################################
   start_new_week: true   # Week 13
 ###################################
-#  topic: ""
-  day_of_week: 0
-#  slides: ../assets/pdf/cs201-1202-internals-2.pdf
--
-  day_of_week: 2
-  reading:
-    -
-     title: "TLCL §34: Strings and Numbers"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "473-494"
-     length:
-       value: 21
-       unit:  "pages"
--
-  day_of_week: 4
-  reading:
-    -
-     title: "TLCL §35: Arrays"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "495-504"
-     length:
-       value: 9
-       unit:  "pages"
--
 ###################################
   start_new_week: true   # Week 14
 ###################################
-#  topic: ""
-  day_of_week: 0
-#  slides: ../assets/pdf/cs201-1203-internals-3.pdf
--
-#  topic: ""
-  day_of_week: 2
-#  slides: ../assets/pdf/cs201-1204-internals-4.pdf
-  reading:
-    -
-     title: "TLCL §36: Exotica"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "505-518"
-     length:
-       value: 13
-       unit:  "pages"
-#    -
-#     title: "HW7 due"
--
-#  topic: "Classes"
-  day_of_week: 4
-#  slides: ../assets/pdf/cs201-1301-classes-1.pdf
-#  reading:
-#    -
-#     title: "Chapter 9: Classes"
-#     pages: "303-341"
-#     length:
-#       value: 39
-#       unit: "pages"
--
 ###################################
   start_new_week: true   # Week 15
 ###################################
-#  topic: ""
-  day_of_week: 0
-#  slides: ../assets/pdf/cs201-1302-classes-2.pdf
--
-#  topic: ""
-  day_of_week: 2
-#  slides: ../assets/pdf/cs201-1303-classes-3.pdf
--
-  topic: "Review"
-  day_of_week: 4
-#  reading:
-#    -
-#     title: "HW8 due"
--
 ###################################
   start_new_week: true   # Week 16
 ###################################
