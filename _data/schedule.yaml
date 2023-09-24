@@ -1,78 +1,30 @@
 -
   start_new_week: true   # Week 1
-  topic: "Syllabus"
-  day_of_week: 2
-  reading:
-    -
-     title: "Course description"
-     url: ..
-     length:
-       value: 2
-       unit: "pages"
-    -
-     title: "Course policies"
-     url: ../coursepolicy
-     length:
-       value: 5
-       unit: "pages"
-    -
-     title: "University policies"
-     url: ../universitypolicy
-     length:
-       value: 3
-       unit: "pages"
-    -
-     title: "Schedule"
-     url: ../schedule
-     length:
-       value: 1
-       unit: "pages"
+  day_of_week: 0
+  topic: "Using ssh"
+  lesson:
+    - "aurora.cs.uaf.edu is the Linux server that we will use in this class"
+    - "A user account on aurora has been created for each student"
+    - "Work with students to ensure each student can successfully log into aurora"
+    - "Describe need for UAF VPN to connect to aurora from off campus"
+    - "Introduction to bash"
 -
-  topic: "Bash"
-#  slides: ../assets/pdf/cs201-0101-intro-to-cpp-1.pdf
+  topic: "Github and ssh"
+  day_of_week: 2
+  lesson:
+    - "Refresh on how to log into aurora using ssh"
+    - "Introduction to vim, including how to edit a file, save a file, and exit vim"
+    - "Work with students to run git config on aurora to provide user name and email address"
+    - "Work with students to ensure each student creates an ssh key on aurora and connects it to their Github account"
+-
+  topic: "HW00"
   day_of_week: 4
-  reading:
-    -
-     title: "TLCL §1: What is the shell?"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "2-6"
-     length:
-       value: 4
-       unit:  "pages"
-    -
-     title: "TLCL §2: Navigation"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "7-12"
-     length:
-       value: 5
-       unit:  "pages"
-    -
-     title: "TLCL §12: A Gentle Intro to vi"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "141-161"
-     length:
-       value: 20
-       unit:  "pages"
-    -
-     title: "Bash command line basics, playlist 1"
-     url:   "https://www.youtube.com/playlist?list=PLydysiDoFy5XbOE5TQYZyO7xfEdv8pgb3"
-     length:
-       value: "147"
-       unit:  "minutes"
-    -
-     title: "Bash Manual §1.1: What is Bash?"
-     url:   "https://www.gnu.org/software/bash/manual/html_node/What-is-Bash_003f.html#What-is-Bash_003f"
-     pages:  "1"
-     length:
-       value: 1
-       unit:  "pages"
-    -
-     title: "Bash Manual §1.2: What is a shell?"
-     url:   "https://www.gnu.org/software/bash/manual/html_node/What-is-a-shell_003f.html"
-     pages:  "1"
-     length:
-       value: 1
-       unit:  "pages"
+  lesson:
+    - "Assign HW00 to be done in class"
+    - "How to use g++ to compile a C++ program in bash on Linux"
+    - "Hello world in C++"
+    - "Practice using vim to edit a C++ file"
+    - "Work with students to ensure each student successfully uses git add, git commit, and git push"
 -
 ###################################
   start_new_week: true   # Week 2
