@@ -62,6 +62,41 @@
 ###################################
   start_new_week: true   # Week 4
 ###################################
+  day_of_week: 0
+  reading:
+    -
+     title: "C++ Primer, Part One: The Basics"
+     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/title1_id_395.html#title1_id_395"
+     pages:  "29-30"
+     length:
+       value: 2
+       unit:  "pages"
+    -
+     title: "C++ Primer, §2.0: Variables and Basic Types"
+     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/title1_id_6.html#title1_id_6"
+     pages:  "31-32"
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §2.1: Primitive Built-in Types"
+     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/ch02lev1sec1.html#ch02lev1sec1"
+     pages:  "32-41"
+     length:
+       value: 10
+       unit:  "pages"
+    -
+     title: "C++ Primer, §2.2: Variables"
+     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/ch02lev1sec2.html#ch02lev1sec2"
+     pages:  "41-49"
+     length:
+       value: 8
+       unit:  "pages"
+-
+  day_of_week: 2
+-
+  day_of_week: 4
+-
 ###################################
   start_new_week: true   # Week 5
 ###################################
