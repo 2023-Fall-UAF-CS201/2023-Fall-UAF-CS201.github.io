@@ -30,80 +30,18 @@
   start_new_week: true   # Week 2
 ###################################
   day_of_week: 0
-  reading:
-    -
-     title: "Pro Git §1.1: About Version Control"
-     url:   "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"
-     length:
-       value: 4
-       unit: "pages"
-    -
-     title: "Pro Git §1.3: What is Git?"
-     url:   "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F"
-     length:
-       value: 3
-       unit: "pages"
-    -
-     title: "Pro Git §2.1: Getting a Git Repository"
-     url:   "https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository"
-     length:
-       value: 2
-       unit: "pages"
-    -
-     title: "Pro Git §2.2: Recording Changes"
-     url:   "https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository"
-     length:
-       value: 12
-       unit: "pages"
-    -
-     title: "Pro Git §2.3: Viewing Commit History"
-     url:   "https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History"
-     length:
-       value: 6
-       unit: "pages"
 -
-  topic: "Chapter 2"
-  slides: ../slides/week2
   day_of_week: 2
-  reading:
-    -
-     title: "PPP C++: Preface"
-     url:   "https://www.oreilly.com/library/view/programming-principles-and/9780133796759/pref01.xhtml"
-     pages: "xxv-xxx"
-     length:
-       value: 5
-       unit: "pages"
-    -
-     title: "PPP C++ §2: Hello, World!"
-     url:   "https://www.oreilly.com/library/view/programming-principles-and/9780133796759/ch02.xhtml#ch02"
-     pages: "43-51"
-     length:
-       value: 9
-       unit: "pages"
 -
   day_of_week: 4
-#  slides: ../assets/pdf/cs201-0201-flow-of-control-1.pdf
-  topic: "Bash"
   reading:
     -
-     title: "TLCL §3: Exploring the System"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "13"
+     title: "C++ Primer Chapter 1: Getting Started"
+     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/"
+     pages: "1-28"
      length:
-       value: 5
+       value: 28
        unit:  "pages"
-    -
-     title: "TLCL §4: Manipulating files & dirs"
-     url:   "https://linuxcommand.org/tlcl.php"
-     pages: "25-41"
-     length:
-       value: 16
-       unit:  "pages"
-#     title: "Chapter 4.4: Statements"
-#     pages: "100-113"
-#     length:
-#       value: 13
-#       unit: "pages"
 -
 ###################################
   start_new_week: true   # Week 3
