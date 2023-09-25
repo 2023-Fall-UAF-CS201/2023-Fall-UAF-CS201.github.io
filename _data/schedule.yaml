@@ -31,7 +31,7 @@
   start_new_week: true   # Week 2
 ###################################
   day_of_week: 0
-  topic: "Labor Day"
+  note: "Labor Day"
 -
   day_of_week: 2
   lesson:
@@ -165,14 +165,10 @@
   start_new_week: true   # Week 13
 ###################################
   day_of_week: 2
-  reading:
-    -
-     title: "Thanksgiving break"
+  note: "Thanksgiving break"
 -
   day_of_week: 4
-  reading:
-    -
-     title: "Thanksgiving break"
+  note: "Thanksgiving break"
 -
 ###################################
   start_new_week: true   # Week 14
