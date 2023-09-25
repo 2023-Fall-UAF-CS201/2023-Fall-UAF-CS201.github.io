@@ -31,12 +31,12 @@
   start_new_week: true   # Week 2
 ###################################
   day_of_week: 0
-  lesson:
-    - "Present syllabus"
+  topic: "Labor Day"
 -
   day_of_week: 2
   lesson:
-   -  "Provide Zoom link for students who are ill"
+    - "Present syllabus"  
+    -  "Provide Zoom link for students who are ill"
 -
   day_of_week: 4
   lesson:
@@ -149,7 +149,7 @@
   topic: "Midterm Exam"
   day_of_week: 4
 -
-g###################################
+###################################
   start_new_week: true   # Week 9
 ###################################
 ###################################
