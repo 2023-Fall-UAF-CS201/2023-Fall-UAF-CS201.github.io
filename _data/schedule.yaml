@@ -53,6 +53,55 @@
 -
   day_of_week: 4
   topic: "HW01"
+  reading:
+    -
+     title: "C++ Primer, §1.0: Getting Started"
+     pages:  "1-2"
+     length:
+       value: 1
+       unit:  "pages"  
+    -
+     title: "C++ Primer, §1.1 Writing a Simple C++ Program"
+     pages:  "2-5"
+     length:
+       value: 4
+       unit:  "pages"  
+    -
+     title: "C++ Primer, §1.2: A First Look at Input/Output"
+     pages:  "5-9"
+     length:
+       value: 3
+       unit:  "pages"  
+    -
+     title: "C++ Primer, §1.3: A Word about Comments"
+     pages:  "9-11"
+     length:
+       value: 2
+       unit:  "pages"  
+    -
+     title: "C++ Primer, §1.4: Flow of Control"
+     pages:  "11-19"
+     length:
+       value: 8
+       unit:  "pages"  
+    -
+     title: "C++ Primer, §1.5: Introducing Classes"
+     pages:  "19-24"
+     length:
+       value: 5
+       unit:  "pages"  
+    -
+     title: "C++ Primer, §1.6: The Bookstore Program"
+     pages:  "24-25"
+     length:
+       value: 2
+       unit:  "pages"  
+    -
+     title: "C++ Primer, Chapter 1 Summary and Defined Terms"
+     pages:  "26-28"
+     length:
+       value: 3
+       unit:  "pages"  
   lesson:
     - "HW01 assigned"
     - "Each student should spend class working on HW 01"
@@ -64,28 +113,24 @@
   reading:
     -
      title: "C++ Primer, Part One: The Basics"
-     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/title1_id_395.html#title1_id_395"
      pages:  "29-30"
      length:
        value: 2
        unit:  "pages"
     -
      title: "C++ Primer, §2.0: Variables and Basic Types"
-     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/title1_id_6.html#title1_id_6"
      pages:  "31-32"
      length:
        value: 1
        unit:  "pages"
     -
      title: "C++ Primer, §2.1: Primitive Built-in Types"
-     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/ch02lev1sec1.html#ch02lev1sec1"
      pages:  "32-41"
      length:
        value: 10
        unit:  "pages"
     -
      title: "C++ Primer, §2.2: Variables"
-     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/ch02lev1sec2.html#ch02lev1sec2"
      pages:  "41-49"
      length:
        value: 8
@@ -102,28 +147,24 @@
   reading:
     -
      title: "C++ Primer, §3.0: String, Vectors, and Arrays"
-     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/title1_id_29.html"
      pages:  "81-82"
      length:
        value: 1
        unit:  "pages"
     -
      title: "C++ Primer, §3.1: Namespace using Declarations"
-     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/ch03lev1sec1.html#ch03lev1sec1"
      pages:  "82-83"
      length:
        value: 2
        unit:  "pages"
     -
      title: "C++ Primer, §3.2: Library string type"
-     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/ch03lev1sec2.html#ch03lev1sec2"
      pages:  "84-95"
      length:
        value: 12
        unit:  "pages"
     -
      title: "C++ Primer, §3.3: Library vector type"
-     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/ch03lev1sec3.html#ch03lev1sec3"
      pages:  "96-105"
      length:
        value: 10
@@ -135,7 +176,6 @@
   reading:
     -
      title: "C++ Primer, §4.0: Expressions"
-     url:   ""
      pages:  "133-134"
      length:
        value: 1
