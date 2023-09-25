@@ -39,7 +39,6 @@
    -  "Provide Zoom link for students who are ill"
 -
   day_of_week: 4
-  topic: "HW01"
   lesson:
     - "Describe a hypothetical CS lab from 50+ years ago with dumb terminals"
     - "Describe a terminal emulator"
@@ -56,6 +55,7 @@
 -
   day_of_week: 4
   topic: "HW01"
+  lesson:
     - "Assign HW01"
     - "Give students entire class period to work on HW01"
     - "Walk around and assist students as needed, answering questions"
