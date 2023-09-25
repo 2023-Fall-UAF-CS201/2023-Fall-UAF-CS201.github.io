@@ -3,29 +3,27 @@
   day_of_week: 0
   topic: "Using ssh"
   lesson:
-    - "aurora.cs.uaf.edu is the Linux server that we will use in this class"
-    - "A user account on aurora has been created for each student"
-    - "Work with students to ensure each student can successfully log into aurora"
-    - "Describe need for UAF VPN to connect to aurora from off campus"
-    - "Introduction to bash"
+    - "CS 201: Intro to CS using C++"
+    - "aurora.cs.uaf.edu is Linux server that will be used in this class"
+    - "Each student should connect to aurora using ssh"
+    - "The UAF VPN is needed to connect to aurora from off campus"
 -
   topic: "Github and ssh"
   day_of_week: 2
   lesson:
-    - "Refresh on how to log into aurora using ssh"
     - "Introduction to vim, including how to edit a file, save a file, and exit vim"
-    - "Work with students to run git config on aurora to provide user name and email address"
-    - "Work with students to ensure each student creates an ssh key on aurora and connects it to their Github account"
-    - "Ask students to begin reading Chapter 1 of C++ Primer 5th edition"
+    - "Each student should run git config on aurora to provide user name and email address"
+    - "Each student should create an ssh key on aurora and connects it to their Github account"
+    - "After this class perioud, student should begin reading Chapter 1 of C++ Primer 5th edition"
 -
   topic: "HW00"
   day_of_week: 4
   lesson:
-    - "Assign HW00 to be done in class"
-    - "How to use g++ to compile a C++ program in bash on Linux"
+    - "HW00 to be done in class"
+    - "Using g++ to compile a C++ program in bash on Linux"
     - "Hello world in C++"
     - "Practice using vim to edit a C++ file"
-    - "Work with students to ensure each student successfully uses git add, git commit, and git push"
+    - "Each student should successfully use git add, git commit, and git push to turn in HW00"
 -
 ###################################
   start_new_week: true   # Week 2
@@ -35,16 +33,15 @@
 -
   day_of_week: 2
   lesson:
-    - "Present syllabus"  
-    -  "Provide Zoom link for students who are ill"
+    - "Syllabus"  
+    - "Zoom link for students who are ill"
 -
   day_of_week: 4
   lesson:
-    - "Describe a hypothetical CS lab from 50+ years ago with dumb terminals"
-    - "Describe a terminal emulator"
-    - "Refresh students on how to use ssh in conjunction with a terminal emulator"
-    - "Remind students that connecting to aurora from off campus requires VPN"
-    - "Describe the concepts of standard input, output, and error streams in conjunction with bash"
+    - "Hypothetical CS lab from 50+ years ago with dumb terminals"
+    - "What is a terminal emulator?"
+    - "Each student should use ssh in conjunction with a terminal emulator to connect to aurora"
+    - "Standard input, output, and error streams"
 -
 ###################################
   start_new_week: true   # Week 3
@@ -56,9 +53,8 @@
   day_of_week: 4
   topic: "HW01"
   lesson:
-    - "Assign HW01"
-    - "Give students entire class period to work on HW01"
-    - "Walk around and assist students as needed, answering questions"
+    - "HW01 assigned"
+    - "Each student should spend class working on HW 01"
 -
 ###################################
   start_new_week: true   # Week 4
