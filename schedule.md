@@ -22,7 +22,7 @@ layout: default
     <tr>
     <th style="text-align: center">Week</th>
       <th style="text-align: center">Date</th>
-      <th style="text-align: center">Topic</th>
+<!--      <th style="text-align: center">Topic</th> -->
     <th style="text-align: center">Content</th>
       <th style="text-align: left">Workload</th>
     </tr>
@@ -34,7 +34,7 @@ layout: default
     <tr>
       <td style="text-align: center">{% if lecture.start_new_week %}Week {% increment current_week %}{% endif %}</td>
       <td style="text-align: center">{{ current_week | minus: 2 | times: 7 | plus: lecture.day_of_week |  times: 24 | times: 60 | times: 60 | plus: start_of_semester | date: "%A<br/>%F" }}</td>
-      <td style="text-align: center">{% if lecture.topic %}{{ lecture.topic }}{% endif %}<br/>{% if lecture.slides %}<a href="{{ lecture.slides }}">(slides)</a>{% endif %}</td>
+<!--      <td style="text-align: center">{% if lecture.topic %}{{ lecture.topic }}{% endif %}<br/>{% if lecture.slides %}<a href="{{ lecture.slides }}">(slides)</a>{% endif %}</td> -->
       <td>
         {% if lecture.note %}
            <h5>{{ lecture.note }}</h5>
