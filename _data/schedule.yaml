@@ -164,6 +164,16 @@
 ###################################
   start_new_week: true   # Week 13
 ###################################
+  day_of_week: 2
+  reading:
+    -
+     title: "Thanksgiving break"
+-
+  day_of_week: 4
+  reading:
+    -
+     title: "Thanksgiving break"
+-
 ###################################
   start_new_week: true   # Week 14
 ###################################
