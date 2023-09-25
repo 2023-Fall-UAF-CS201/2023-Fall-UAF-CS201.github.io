@@ -100,6 +100,37 @@
 ###################################
   start_new_week: true   # Week 5
 ###################################
+  day_of_week: 0
+  reading:
+    -
+     title: "C++ Primer, §3.0: String, Vectors, and Arrays"
+     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/title1_id_29.html"
+     pages:  "81-82"
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §3.1: Namespace using Declarations"
+     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/ch03lev1sec1.html#ch03lev1sec1"
+     pages:  "82-83"
+     length:
+       value: 2
+       unit:  "pages"
+    -
+     title: "C++ Primer, §3.2: Library string type"
+     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/ch03lev1sec2.html#ch03lev1sec2"
+     pages:  "84-95"
+     length:
+       value: 12
+       unit:  "pages"
+    -
+     title: "C++ Primer, §3.3: Library vector type"
+     url:   "https://learning.oreilly.com/library/view/c-primer-fifth/9780133053043/ch03lev1sec3.html#ch03lev1sec3"
+     pages:  "96-105"
+     length:
+       value: 10
+       unit:  "pages"
+-
 ###################################
   start_new_week: true   # Week 6
 ###################################
