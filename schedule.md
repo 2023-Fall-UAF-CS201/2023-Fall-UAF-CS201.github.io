@@ -37,10 +37,10 @@ layout: default
       <td style="text-align: center">{% if lecture.topic %}{{ lecture.topic }}{% endif %}<br/>{% if lecture.slides %}<a href="{{ lecture.slides }}">(slides)</a>{% endif %}</td>
       <td>
         {% if lecture.note %}
-           <ul><li>{{ lecture.note }}</li></ul>
+           <h5>{{ lecture.note }}</h5>
         {% endif %}
         {% if lecture.reading %}
-	  <h4>Read before class:</h4>
+	  <h5>Read before class:</h5>
           <ul>
           {% for reading in lecture.reading %}
             <li>
