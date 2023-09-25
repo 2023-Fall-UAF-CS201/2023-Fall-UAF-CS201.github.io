@@ -15,7 +15,7 @@
     - "How to edit a file and save a file in vim, and how to exit vim"
     - "Each student should run git config on aurora to provide user name and email address"
     - "Each student should create an ssh key on aurora and connects it to their Github account"
-    - "After this class perioud, student should begin reading Chapter 1 of C++ Primer 5th edition"
+    - "After this class period, student should begin reading Chapter 1 of C++ Primer 5th edition"
 -
   topic: "HW00"
   day_of_week: 4
@@ -186,6 +186,56 @@
 ###################################
   start_new_week: true   # Week 7
 ###################################
+  reading:
+    -
+     title: "C++ Primer, §5.0: Statements"
+     pages:  "171-172"
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §5.1: Simple Statements"
+     pages:  "172-174"
+     length:
+       value: 2
+       unit:  "pages"
+    -
+     title: "C++ Primer, §5.2: Statement Scope"
+     pages:  "174"
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §5.3.1: The if Statement"
+     pages:  "174-178"
+     length:
+       value: 4
+       unit:  "pages"
+    -
+     title: "C++ Primer, §5.4: Iterative Statements"
+     pages:  "183-190"
+     length:
+       value: 7
+       unit:  "pages"
+    -
+     title: "C++ Primer, §5.5.1: The break statement"
+     pages:  "190-191"
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §5.5.2: The continue statement"
+     pages:  "191"
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, Chapter 5 Summary and Defined Terms"
+     pages:  "199-200"
+     length:
+       value: 2
+       unit:  "pages"
+-
 ###################################
   start_new_week: true   # Week 8
 ###################################
