@@ -36,6 +36,9 @@ layout: default
       <td style="text-align: center">{{ current_week | minus: 2 | times: 7 | plus: lecture.day_of_week |  times: 24 | times: 60 | times: 60 | plus: start_of_semester | date: "%A<br/>%F" }}</td>
 <!--      <td style="text-align: center">{% if lecture.topic %}{{ lecture.topic }}{% endif %}<br/>{% if lecture.slides %}<a href="{{ lecture.slides }}">(slides)</a>{% endif %}</td> -->
       <td>
+        {% if lecture.topic %}
+           <h4>{% if lecture.topic %}{{ lecture.topic }}{% endif %}<br/>{% if lecture.slides %}<a href="{{ lecture.slides }}">(slides)</a>{% endif %}</h4>
+        {% endif %}      
         {% if lecture.note %}
            <h5>{{ lecture.note }}</h5>
         {% endif %}
