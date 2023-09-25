@@ -37,7 +37,7 @@ layout: default
 <!--      <td style="text-align: center">{% if lecture.topic %}{{ lecture.topic }}{% endif %}<br/>{% if lecture.slides %}<a href="{{ lecture.slides }}">(slides)</a>{% endif %}</td> -->
       <td>
         {% if lecture.topic %}
-           <h4>{% if lecture.topic %}{{ lecture.topic }}{% endif %}<br/>{% if lecture.slides %}<a href="{{ lecture.slides }}">(slides)</a>{% endif %}</h4>
+           <h4 style="text-align: center">{% if lecture.topic %}{{ lecture.topic }}{% endif %}<br/>{% if lecture.slides %}<a href="{{ lecture.slides }}">(slides)</a>{% endif %}</h4>
         {% endif %}      
         {% if lecture.note %}
            <h5>{{ lecture.note }}</h5>
