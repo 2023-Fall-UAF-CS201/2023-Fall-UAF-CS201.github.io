@@ -132,6 +132,71 @@
 ###################################
   start_new_week: true   # Week 6
 ###################################
+  reading:
+    -
+     title: "C++ Primer, §4.0: Expressions"
+     url:   ""
+     pages:  ""
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §4.1: Fundamentals"
+     url:   ""
+     pages:  ""
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §4.2: Arithmetic Operators"
+     url:   ""
+     pages:  ""
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §4.3: Logical and Relational Operators"
+     url:   ""
+     pages:  ""
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §4.4: Assignment Operators"
+     url:   ""
+     pages:  ""
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §4.5: Increment and Decrement Operators"
+     url:   ""
+     pages:  ""
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §4.6: The Member Access Operators"
+     url:   ""
+     pages:  ""
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §4.7: The Conditional Operator"
+     url:   ""
+     pages:  ""
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §4.10: Comma Operator"
+     url:   ""
+     pages:  ""
+     length:
+       value: 1
+       unit:  "pages"
+-
 ###################################
   start_new_week: true   # Week 7
 ###################################
