@@ -98,7 +98,7 @@
        value: 2
        unit:  "pages"  
     -
-     title: "C++ Primer, Chapter 1 Summary and Defined Terms"
+     title: "C++ Primer, §1 Summary & Defined Terms"
      pages:  "26-28"
      length:
        value: 3
@@ -225,7 +225,7 @@
        value: 1
        unit:  "pages"
     -
-     title: "C++ Primer, Chapter 4 Defined Terms"
+     title: "C++ Primer, §4 Defined Terms"
      pages:  "168-170"
      length:
        value: 3
@@ -284,7 +284,7 @@
        value: 1
        unit:  "pages"
     -
-     title: "C++ Primer, Chapter 5 Summary and Defined Terms"
+     title: "C++ Primer, §5 Summary & Defined Terms"
      pages:  "199-200"
      length:
        value: 2
@@ -380,6 +380,12 @@
      pages:  "282-283"
      length:
        value: 2
+       unit:  "pages"
+    -
+     title: "C++ Primer, §7.5: Constructors Revisited (skip §7.5.4 - §7.5.6)"
+     pages:  "288-294"
+     length:
+       value: 7
        unit:  "pages"
     -
      title: "C++ Primer, §7.6: static Class Members"
