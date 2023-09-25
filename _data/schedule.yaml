@@ -17,7 +17,7 @@
     - "Each student should create an ssh key on aurora and connects it to their Github account"
     - "After this class period, student should begin reading Chapter 1 of C++ Primer 5th edition"
 -
-  topic: "HW00"
+  topic: "HW00 assigned"
   day_of_week: 4
   lesson:
     - "HW00 to be done in class"
@@ -38,6 +38,7 @@
     - "Zoom link for students who are ill"
 -
   day_of_week: 4
+  topic: "HW00 due at 9:15 AM"
   lesson:
     - "Hypothetical CS lab from 50+ years ago with dumb terminals"
     - "What is a terminal emulator?"
@@ -139,7 +140,7 @@
   day_of_week: 2
 -
   day_of_week: 4
-  note: "HW01 due at 5 PM"
+  topic: "HW01 due at 5 PM"
 -
 ###################################
   start_new_week: true   # Week 5
@@ -179,7 +180,7 @@
   start_new_week: true   # Week 6
 ###################################
   day_of_week: 0
-  note: "HW02 due at 11 AM"  
+  topic: "HW02 due at 9 AM"
   reading:
     -
      title: "C++ Primer, §4.0: Expressions"
@@ -238,6 +239,7 @@
   start_new_week: true   # Week 7
 ###################################
   day_of_week: 0
+  topic: "HW03 due at 9 AM"  
   reading:
     -
      title: "C++ Primer, §5.0: Statements"
@@ -296,6 +298,7 @@
   start_new_week: true   # Week 8
 ###################################
   day_of_week: 0
+  topic: "HW04 due at 9 AM"
 -
   day_of_week: 2
 -
@@ -322,6 +325,7 @@
   start_new_week: true   # Week 10
 ###################################
   day_of_week: 0
+  topic: "HW05 due at 9 AM"  
   reading:
     -
      title: "C++ Primer, §7: Classes"
@@ -338,6 +342,7 @@
   start_new_week: true   # Week 11
 ###################################
   day_of_week: 0
+  topic: "HW06 due at 9 AM"
 -
   day_of_week: 2
 -
