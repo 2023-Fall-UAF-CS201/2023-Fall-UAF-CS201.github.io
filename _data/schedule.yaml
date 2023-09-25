@@ -36,10 +36,11 @@
 -
   day_of_week: 2
   lesson:
-    - "Provide Zoom link for students who are ill"
+   -  "Provide Zoom link for students who are ill"
 -
   day_of_week: 4
-  lesson: "HW01"
+  topic: "HW01"
+  lesson:
     - "Describe a hypothetical CS lab from 50+ years ago with dumb terminals"
     - "Describe a terminal emulator"
     - "Refresh students on how to use ssh in conjunction with a terminal emulator"
