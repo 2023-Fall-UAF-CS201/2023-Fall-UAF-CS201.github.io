@@ -173,6 +173,7 @@
 ###################################
   start_new_week: true   # Week 6
 ###################################
+  day_of_week: 0
   reading:
     -
      title: "C++ Primer, §4.0: Expressions"
@@ -226,6 +227,7 @@
 ###################################
   start_new_week: true   # Week 7
 ###################################
+  day_of_week: 0
   reading:
     -
      title: "C++ Primer, §5.0: Statements"
@@ -280,6 +282,13 @@
   start_new_week: true   # Week 8
 ###################################
   day_of_week: 0
+  reading:
+    -
+     title: "C++ Primer, §6: Functions"
+     pages:  "201-250"
+     length:
+       value: 50
+       unit:  "pages"
 -
   day_of_week: 2
 -
@@ -290,6 +299,13 @@
   start_new_week: true   # Week 9
 ###################################
   day_of_week: 0
+  reading:
+    -
+     title: "C++ Primer, §7: Classes"
+     pages:  "253-307"
+     length:
+       value: 50
+       unit:  "pages"
 -
   day_of_week: 2
 -
