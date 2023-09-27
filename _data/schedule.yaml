@@ -173,6 +173,7 @@
        unit:  "pages"
 -
   day_of_week: 2
+  topic: "Lab01, HW01, HW02 assigned"
 -
   day_of_week: 4
 -
@@ -180,7 +181,6 @@
   start_new_week: true   # Week 6
 ###################################
   day_of_week: 0
-  topic: "HW02 due at 9 AM"
   reading:
     -
      title: "C++ Primer, §4.0: Expressions"
@@ -232,14 +232,14 @@
        unit:  "pages"
 -
   day_of_week: 2
+  topic: "HW02 due at 9 AM"
 -
   day_of_week: 4
 -
 ###################################
   start_new_week: true   # Week 7
 ###################################
-  day_of_week: 0
-  topic: "HW03 due at 9 AM"  
+  day_of_week: 0 
   reading:
     -
      title: "C++ Primer, §5.0: Statements"
@@ -291,6 +291,7 @@
        unit:  "pages"
 -
   day_of_week: 2
+  topic: "HW03 due at 9 AM" 
 -
   day_of_week: 4
 -
