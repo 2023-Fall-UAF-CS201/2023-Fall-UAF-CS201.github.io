@@ -173,9 +173,13 @@
        unit:  "pages"
 -
   day_of_week: 2
-  topic: "Lab01, HW01, HW02 assigned"
+  topic: "Lab01, HW02, HW03 assigned"
+  lesson:
+    - "Work through Lab01 in class"
 -
   day_of_week: 4
+  lesson:
+    - "Work through HW02 in class"
 -
 ###################################
   start_new_week: true   # Week 6
