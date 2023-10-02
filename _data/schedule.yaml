@@ -304,6 +304,19 @@
 ###################################
   day_of_week: 0
   topic: "HW04 due at 9 AM"
+  reading:
+    -
+     title: "C++ Primer, §6.0: Functions"
+     pages:  "201-202"
+     length:
+       value: 1
+       unit:  "pages"
+    -
+     title: "C++ Primer, §6.1: Function Basics (only up through \"Parameters and Arguments\")"
+     pages:  "202-203"
+     length:
+       value: 2
+       unit:  "pages"  
 -
   day_of_week: 2
 -
@@ -316,16 +329,10 @@
   day_of_week: 0
   reading:
     -
-     title: "C++ Primer, §6.0: Functions"
-     pages:  "201-202"
+     title: "C++ Primer, rest of §6.1: Function Basics"
+     pages:  "204-208"
      length:
-       value: 1
-       unit:  "pages"
-    -
-     title: "C++ Primer, §6.1: Function Basics"
-     pages:  "202-208"
-     length:
-       value: 7
+       value: 5
        unit:  "pages"
     -
      title: "C++ Primer, §6.2: Argument Passing (skip §6.2.4 & §6.2.6)"
