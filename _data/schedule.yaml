@@ -234,6 +234,15 @@
      length:
        value: 3
        unit:  "pages"
+  topic: "Lab02 assigned"
+  lesson:
+    - "Create a new git repo using git init"
+    - "Set up newly created repo using git add and git commit"
+    - "Connect newly created repo to Github using git remote add"
+    - "Push newly created repo to Github using git push"
+    - "Contents of .git/config in newly created repo"
+    - "Adding git aliases to ~/.gitconfig"
+    - "Work through Lab02 in class"
 -
   day_of_week: 2
   topic: "HW02 due at 9 AM"
