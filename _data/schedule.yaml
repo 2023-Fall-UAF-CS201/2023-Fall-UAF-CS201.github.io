@@ -303,8 +303,7 @@
        value: 2
        unit:  "pages"
 -
-  day_of_week: 2
-  topic: "HW03 due at 9 AM" 
+  day_of_week: 2 
 -
   day_of_week: 4
 -
@@ -312,7 +311,6 @@
   start_new_week: true   # Week 8
 ###################################
   day_of_week: 0
-  topic: "HW04 due at 9 AM"
   reading:
     -
      title: "C++ Primer, §6.0: Functions"
@@ -328,6 +326,7 @@
        unit:  "pages"  
 -
   day_of_week: 2
+  topic: "HW03 due at 9 AM"
 -
   topic: "Midterm Exam"
   day_of_week: 4
